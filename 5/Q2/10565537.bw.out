@@ -1,0 +1,37 @@
+----------------------------------------
+Begin Torque Prologue on nid25433
+at Tue Oct 22 22:37:56 CDT 2019
+Job Id:			10565537.bw
+Username:		tra217
+Group:			TRAIN_bayw
+Job name:		RNN_sentiment_analysis2
+Requested resources:	nodes=01:ppn=16:xk,walltime=02:00:00,neednodes=01:ppn=16:xk
+Queue:			normal
+Account:		bayw
+End Torque Prologue:  0.114 elapsed
+----------------------------------------
+
+
+
+
+0 67.50 0.6007 174.7651
+   78.73 0.4897
+1 82.99 0.3807 173.4418
+   83.92 0.3719
+2 87.78 0.2972 173.4050
+   85.34 0.3469
+3 89.91 0.2450 173.4579
+   86.12 0.3627
+4 92.04 0.2018 173.4476
+   86.80 0.3525
+5 93.84 0.1632 173.4778
+   85.65 0.5023
+6 95.06 0.1337 173.4277
+   85.58 0.5211
+7 96.26 0.1027 173.5305
+   86.14 0.4576
+8 96.67 0.0936 173.5443
+   84.95 0.6078
+9 97.61 0.0693 173.4717
+   85.69 0.6768
+Application 81581659 resources: utime ~1862s, stime ~37s, Rss ~1570716, inblocks ~195660, outblocks ~26027
