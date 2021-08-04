@@ -1,0 +1,12 @@
+#!/bin/bash
+#PBS -l nodes=01:ppn=16:xk
+#PBS -l walltime=06:00:00
+#PBS -N resnet_tinyimagenet1
+#PBS -e $PBS_JOBID.err
+#PBS -o $PBS_JOBID.out
+#PBS -m bea
+#PBS -M junzhew3@illinois.edu
+cd /mnt/c/scratch/training/tra217/HW5
+. /opt/modules/default/init/bash # NEEDED to add module commands to shell
+module load bwpy
+aprun -n 1 -N 1 python resnet_tinyimagenet1.py
